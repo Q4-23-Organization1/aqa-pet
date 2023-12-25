@@ -1,8 +1,15 @@
+import java.util.Scanner;
+
 public class HW4_3 {
     public static void main(String[] args) {
 
-        double ab = 10;
-        double bc = 13;
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Please input the sides values : ");
+
+        double ab = scanner.nextDouble();
+
+        double bc = scanner.nextDouble();
 
 
         double s = ab * bc / 2;
